@@ -25,6 +25,22 @@ $ bunx @johannwilfridcalixte/agentic@beta init
 ```
 
 
+### [Agent Skills](https://github.com/JohannWilfridCalixte/agent-skills) 🚧 WIP - Better packaging for Agentic
+
+Spec-driven skills, agents, and workflows for LLM-powered editors — repackaged for clean distribution.
+
+Compatible with [Vercel's `skills` CLI](https://github.com/vercel-labs/skills) for individual skills, or use the full framework via `agentic-cli`.
+
+### [Agentic CLI](https://github.com/JohannWilfridCalixte/agentic-cli) 🚧 WIP - Install, update, and distribute agent skills
+
+CLI for managing AI skills and agent definitions from Git repos. Works with Claude Code, Cursor, and Codex.
+
+```bash
+$ agentic add owner/repo       # install skills/agents from any repo
+$ agentic list                  # show installed items
+$ agentic update                # update all
+```
+
 ### [Claude Code Statusline](https://github.com/JohannWilfridCalixte/cc-statusline)
 
 A complete statusline partially based on the p10k config
